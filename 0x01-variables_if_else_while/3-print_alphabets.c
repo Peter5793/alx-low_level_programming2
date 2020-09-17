@@ -1,21 +1,21 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - Entry point lower case and upper case alphabet
+ * main - Entry point for upper and lowercase alphabet
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 char str;
-for (str = 'a'; str <= 'z'; str++)
+
+for (str = 'a' ; str <= 'z' ; str++)
 {
 putchar(str);
 }
-for (str = 'A'; str <= 'Z'; str++)
+for (str = 'A' ; str <= 'Z' ; str++)
 {
 putchar(str);
 }
