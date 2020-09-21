@@ -3,20 +3,23 @@
 
 
 /**
- * main - Entry point printt Holberton
+ * main - print hello world
  *
- *_putchar -writes character c to stdout
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is ser appropriately
+ * On error, -1 is returned, and errno is ser appropriately.
  */
 
 int main(void)
 {
 char c[10] = "Holberton";
-int i;
-for (i = 0; i < c[10]; i++)
+int i = 0;
+
+for (i = 0; i <= 9; i++)
+{
 putchar(c[i]);
+}
+
 putchar('\n');
 
 
